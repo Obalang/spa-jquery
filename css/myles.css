@@ -102,3 +102,27 @@ p{
     font-weight: 900;
     font-style: oblique;
 }
+.icon-button {
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .facebook-icon {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+  }
+  .email-icon {
+    background-color: #ff2a00;
+    color: white;
+    padding: 15px;
+  }
+  .phone-icon {
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+  }
