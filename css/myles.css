@@ -16,3 +16,53 @@ body {
     margin-right: 20px;
    
 }
+header {
+    background-color: violet; /* Dark gray background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+nav {
+   background-image: url('https://scontent.fmnl9-1.fna.fbcdn.net/v/t39.30808-6/361306649_271176185598693_4999159170138726926_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a73e89&_nc_eui2=AeFONxDqTFfMGLaVdnGw-zii-ZAHw01Khmf5kAfDTUqGZ_3NqFf3BMabptHOSYZBwTErCjCHPaC5mjFY8BOWAYzg&_nc_ohc=1XusaU9na1IAX8DAbO_&_nc_ht=scontent.fmnl9-1.fna&oh=00_AfC6yCYJEV_aWfnRTnxNvZ1yWxe_MNdnm4H11VjD_yxhEg&oe=656D8427');
+   background-size: 50%;
+   padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+}
+
+
+@keyframes fadeInBackgroundColor {
+    from {
+        background-color: #eee;
+    }
+    to {
+        background-color: #333; 
+    }
+}
+
+
+#home {
+    animation: fadeInBackgroundColor 3s ease-in-out;
+}
+
+
+#about {
+    animation: fadeInBackgroundColor 3s ease-in-out;
+}
+
+section {
+    padding: 20px;
+}
